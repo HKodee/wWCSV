@@ -2,6 +2,9 @@ import requests
 import pandas as pd
 from io import StringIO
 
+# using csv file
+pd.read_csv('healthcare_dataset.csv')
+
 #opening a csv file using url
 url = "https://raw.githubusercontent.com/cs109/2014_data/master/countries.csv"
 # url = ""
