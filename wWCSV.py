@@ -11,3 +11,5 @@ req = requests.get(url, headers=headers)
 data = StringIO(req.text)
 
 pd.read_csv(data)
+
+# using sep parameter
