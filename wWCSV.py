@@ -2,6 +2,7 @@ import requests
 import pandas as pd
 from io import StringIO
 
+#opening a csv file using url
 url = "https://raw.githubusercontent.com/cs109/2014_data/master/countries.csv"
 headers = {"User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; RV.66.0) Gecko/20100101 Firefox/66.0"}
 req = requests.get(url, headers=headers)
