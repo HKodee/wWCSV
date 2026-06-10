@@ -16,3 +16,4 @@ data = StringIO(req.text)
 pd.read_csv(data)
 
 # using sep parameter
+pd.read_csv('file.tsv', sep='\t')
